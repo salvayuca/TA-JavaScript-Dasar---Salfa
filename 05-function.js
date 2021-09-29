@@ -22,11 +22,11 @@ function taxCalc (salary, n) {
 
 if (salary < 5000000) {
   n = 0;
-} else if (5000000 <= salary < 10000000) {
+} else if (5000000 && salary < 10000000) {
   n =  5;
-} else if (10000000 <= salary < 20000000) {
+} else if (10000000 && salary < 20000000) {
   n =  10;
-} else if (20000000 <= salary) {
+} else if (20000000 && salary) {
   n = 20;
 }
 console.log(n);  
